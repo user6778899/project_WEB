@@ -46,7 +46,7 @@ text-align: center;
 line-height: 125px;}
 </style>
 
-<div class="rectangle text_center_middle">вопрос 1</div>
+<div class="rectangle text_center_middle" id="conteiner"/div>
 
 <!-- код кнопок -->
 <style>
@@ -129,6 +129,8 @@ background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
 .btn-4 span:hover:after {
   width: 100%;
 }
+
+button.klik_da:active { background: rgb(50,200,50); }
 </style>
 
 <!-- прямоугольник для кнопок -->
@@ -146,7 +148,7 @@ line-height: 100px;}
 </style>
 
 <div class="rectangle_knop text_center_middle_knop">
-<button class="custom-btn btn-4"><span>ДА</span></button>
+<button class="custom-btn btn-4 klik_da"><span>ДА</span></button>
 </a>
 <button class="custom-btn btn-4"><span>Незнаю</span></button>
 <button class="custom-btn btn-4"><span>НЕТ</span></button></div>
